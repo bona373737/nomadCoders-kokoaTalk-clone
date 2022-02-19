@@ -1,4 +1,4 @@
-# nomadcoders-kokoatalk-clone
+# Nomadcoders Kokoatalk Clone
 
 html,css수업_kokoaTalk 클론코딩2주 챌린지
 
