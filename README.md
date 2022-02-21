@@ -80,7 +80,7 @@ div ~ h1{    div의 형제관계이고 바로 다음에 있지않은 h1을 찾�
 }
 ```
 
-- **attribute selector**
+## attribute selector
 
 >reference : [MDN_attribute selector](https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors)
 좀더 세부적으로 html elements를 선택하는 기능 
@@ -99,7 +99,7 @@ a[href$=".org"]{    a태그 중 연결된 url이 .org로 끝나는 모든태그�
 
 ```
 
-- **Pseudo-classes : state**
+## Pseudo-classes : state
 
 html elements의 각각 state(상태)마다 다르게 스타일을 적용 할 수 있다.
 
@@ -125,7 +125,7 @@ form:hover input:foucused{    태그 두개의 상태를 동시 사용 가능하
 }
 ```
 
-- **추가 특수한 pseudo-element**
+## 추가 특수한 pseudo-element
 >reference : [MDN_::placehoder](https://developer.mozilla.org/en-US/docs/Web/CSS/::placeholder)
 >reference : [MDN_::selection](https://developer.mozilla.org/en-US/docs/Web/CSS/::selection)
 
@@ -138,3 +138,59 @@ taxtarea::placehorder{
 p::selection{    드래그했을때 형광펜으로 칠한 효과
 }
 ```
+
+# transition
+transition의 사전적 의미 : 다른상태로의 이행, 과도   
+변경되는 값들의 변화과정에 스타일을 줄 수 있다.   
+스타일의 종류   
+- linear 
+- ease
+- ease-in
+- ease-out
+- ease-in-out
+- 내 임의로 스타일적용 cubic-bezier(0.6,  0,  0.735,  0.045);
+```css
+버튼을 클릭했을때 배경색이 흰색에서 빨강으로 변화하는 과정을 
+10초 동안에 걸쳐서 
+
+button{
+	background-color : white;
+	transition : background-color 10s ease-in-out;   
+}
+buttom:hover{
+	background-color : red;
+}
+
+button{
+	background-color : white;
+	border-radius : 1px;
+	color : yellow;
+	transition : background-color 10s ease-in-out,  //변화 중 2개만 선택적으로 적용
+							 border-radius 5s ease-out;  
+}
+buttom:hover{
+	background-color : red;
+	border-radius : 10px;
+	color : blue;
+}
+
+a{
+	background-color : white;
+	color : green;
+	transition : all 10s ease-in-out;      //변화가 있는 모든것에 transition적용  
+}
+a:hover{
+	background-color : red;
+	color : blue;
+	border-radius : 20px;
+}
+```
+
+# transformation
+- translateX()   
+- scale()   
+- rotate()   
+- matrix()   
+transform은 다른 box elements,이미지에 영향을 주지 않는다.   
+3D차원의 변형이기때문에 2D 레이아웃상의 요소들에 영향을 주지않는다.   
+transition과 연계하여 주로 사용된다.   
