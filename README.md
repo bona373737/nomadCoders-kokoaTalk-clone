@@ -4,23 +4,16 @@ html,css수업_kokoaTalk 클론코딩2주 챌린지
 https://nomadcoders.co <br>
 https://nomadcoders.slack.com/archives/CCHLQEXP1
 
-<<<<<<< HEAD
 <div float="left">
-=======
->>>>>>> 22617e0c7ece05e2ec775d65ac3eeb93a342a4ea
-<img src="./screenshots/02-signUp.png" width="200px">
-<img src="./screenshots/03-friends.png" width="200px">
-<img src="./screenshots/04-chats.png" width="200px">
-<img src="./screenshots/05-chat.png" width="200px">
-<img src="./screenshots/06-find.png" width="200px">
-<img src="./screenshots/07-more.png" width="200px">
-<img src="./screenshots/08-settings.png" width="200px">
-<img src="./screenshots/01-splash.png" width="200px">
-<<<<<<< HEAD
+<img src="./screenshots/02-signUp.png" width="200px" border="1px solid black">
+<img src="./screenshots/03-friends.png" width="200px" border="1px solid black">
+<img src="./screenshots/04-chats.png" width="200px" border="1px solid black">
+<img src="./screenshots/05-chat.png" width="200px" border="1px solid black">
+<img src="./screenshots/06-find.png" width="200px" border="1px solid black">
+<img src="./screenshots/07-more.png" width="200px" border="1px solid black">
+<img src="./screenshots/08-settings.png" width="200px" border="1px solid black">
+<img src="./screenshots/01-splash.png" width="200px" border="1px solid black">
 </div>
-=======
->>>>>>> 22617e0c7ece05e2ec775d65ac3eeb93a342a4ea
-
 
 # < display >
 2D 레이아웃 범위내에서 HTML elements의 위치를 제어한다.
