@@ -1,9 +1,20 @@
 # Nomadcoders Kokoatalk Clone
-
 html,css수업_kokoaTalk 클론코딩2주 챌린지
 
 https://nomadcoders.co <br>
 https://nomadcoders.slack.com/archives/CCHLQEXP1
+
+<div float="left">
+<img src="./screenshots/02-signUp.png" width="200px">
+<img src="./screenshots/03-friends.png" width="200px">
+<img src="./screenshots/04-chats.png" width="200px">
+<img src="./screenshots/05-chat.png" width="200px">
+<img src="./screenshots/06-find.png" width="200px">
+<img src="./screenshots/07-more.png" width="200px">
+<img src="./screenshots/08-settings.png" width="200px">
+<img src="./screenshots/01-splash.png" width="200px">
+</div>
+
 
 # < display >
 2D 레이아웃 범위내에서 HTML elements의 위치를 제어한다.
@@ -194,3 +205,26 @@ a:hover{
 transform은 다른 box elements,이미지에 영향을 주지 않는다.   
 3D차원의 변형이기때문에 2D 레이아웃상의 요소들에 영향을 주지않는다.   
 transition과 연계하여 주로 사용된다.   
+
+# Animation
+마우스를 올리거나 하는 state의 변화또는 transition이 있을때만 움직임이 있는 것이 아닌   
+우리가 원하는 만큼 계속해서 동작하도록 만드는 기능   
+특정동작의 function을 정의한 뒤 대입해 사용하는 것처럼   
+@keyframes 키워드로 애니메이션을 정의한뒤 애니메이션이 필요한곳에 대입해사용한다.
+
+```css
+//동전던지기 애니메이션
+@keyfarame coninFlip{
+	from{
+		transform : rotateY(0);
+	}
+	to{
+		transform : rotateY(180deg);
+	}
+}
+
+//img태그에 정의한 애니메이션 적용
+img{
+	animation : coinFlip 5s ease-in-out infinite;
+}
+```
