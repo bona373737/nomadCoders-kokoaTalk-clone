@@ -5,30 +5,30 @@ https://nomadcoders.co <br>
 https://nomadcoders.slack.com/archives/CCHLQEXP1
 
 <div float="left">
-<kdb>
+<kbd>
 <img src="./screenshots/02-signUp.png" width="200px" border="1px solid #000000">
-</kdb>
-<kdb>
+</kbd>
+<kbd>
 <img src="./screenshots/03-friends.png" width="200px" border="1px solid #000000">
-</kdb>
-<kdb>
+</kbd>
+<kbd>
 <img src="./screenshots/04-chats.png" width="200px" border="1px solid #000000">
-</kdb>
-<kdb>
+</kbd>
+<kbd>
 <img src="./screenshots/05-chat.png" width="200px" border="1px solid #000000">
-</kdb>
-<kdb>
+</kbd>
+<kbd>
 <img src="./screenshots/06-find.png" width="200px" border="1px solid #000000">
-</kdb>
-<kdb>
+</kbd>
+<kbd>
 <img src="./screenshots/07-more.png" width="200px" border="1px solid #000000">
-</kdb>
-<kdb>
+</kbd>
+<kbd>
 <img src="./screenshots/08-settings.png" width="200px" border="1px solid #000000">
-</kdb>
-<kdb>
+</kbd>
+<kbd>
 <img src="./screenshots/01-splash.png" width="200px" border="1px solid #000000">
-</kdb>
+</kbd>
 </div>
 
 # < display >
